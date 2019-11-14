@@ -13,5 +13,12 @@ public class calcTest {
           Assertions.assertEquals(3, calculator.add(1, 2));
         }
 
+    @Test
+    public void testAddFail() {
+        Calculator calculator = new Calculator();
+
+        Assertions.assertEquals(4, calculator.add(1, 2));
+    }
+
     }
 
